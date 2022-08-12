@@ -1,0 +1,17 @@
+package jsh.domain;
+
+import java.time.LocalDateTime;
+
+import lombok.*;
+
+@Builder
+@Data
+public class Board {
+
+	private int boardNo;
+	private String title;
+	private String content;
+	private String writer;
+	private LocalDateTime regDate; 
+	
+}
